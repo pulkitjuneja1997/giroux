@@ -1,0 +1,661 @@
+
+.dropdown:hover .dropdown-menu{
+
+	display:block;
+
+}
+#navbar #logo{
+	transition: 5s;
+}
+.logo{
+	
+	margin-left: 10%;
+	transition: 5s;
+}
+.home{
+	background:linear-gradient(110deg, rgba(0,29,105,0.7) 50%, rgba(255, 255, 255, 0) 0%), url('/home/cedcoss/Downloads/residential.jpg');
+
+	height:600px; position: relative;  background-size: cover; margin-top: 13%;
+	}
+
+.container1{
+	margin-top:10%; 
+	margin-left:10%;
+	width:40%;
+	position: absolute; 
+	
+}
+.bulb{
+	text-align: center;
+	font-size: 200%;
+	color: white;
+	width:20%;
+   height: 20%;
+   margin-left: 42%;
+   
+}
+.homecontent{
+	margin-top: 4%;
+}
+
+.homecontent1{
+	text-align: center;
+	font-size: 250%;
+	color: white;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-weight: bold;
+	
+	margin:0; padding:0; line-height:100%;
+} 
+
+.homecontent2{
+	font-size: 180%;
+	color: white;
+	text-align: center;
+	
+}
+
+.heading1{
+	text-align: center;
+	padding-top: 5%;     /* used in home */
+
+}
+
+.heading2{
+	text-align: center;
+
+}
+ul li{
+	float:left;
+}
+
+.row{
+	margin-top: 5%;
+	margin-bottom: 6%;
+}
+
+.features{
+	background-color: grey;
+	border:2px solid black;
+}
+
+.content{
+	margin-left: 10%; font-size: 140%;
+	text-align: center; width:80%; line-height: -20%;
+}
+
+.icons{
+	margin-left:44%;
+	font-size: 300%;
+	text-align: center;
+	margin-bottom: 5%;
+	color: white; 
+	position: absolute; 
+	margin-left: 82%; margin-top: 25%; 
+
+}
+
+.iconheading{
+	
+	margin-bottom: 3%;
+	text-align: center;
+
+}
+.feature-bg-icon{
+	border:2px solid black;
+	float: right;
+}
+
+.boxes{
+	padding-left: 5%;padding-right: 5%;
+}
+
+
+.card{
+	 border: 1px solid blue;
+}
+
+
+.polygon{
+	font-size: 170%; text-align: center; padding-top:5%; 
+}
+
+.bulb{
+	
+}
+
+.btn1{
+	border-radius: 5px; background-color: blue; color: white; padding: 1%; text-decoration: none; list-style: none;
+}
+
+.services1{
+	background:linear-gradient( rgba(0,0,0,0.7)50%, rgba(0,0,0, 0.7)50% ), url('/home/cedcoss/Downloads/residential-service.jpg ');
+	position: absolute; height:200px; border:2px solid black; width:85%; height:400px;background-size: cover; 
+	margin-left: 10%;
+}
+
+.services{
+	background:linear-gradient( rgba(0,0,0,0.7)50%, rgba(0,0,0, 0.7)50% ), url('/home/cedcoss/Downloads/commercial-service.jpg ');
+	position: absolute; height:200px; border:2px solid black; width:85%; height:400px;background-size: cover; 
+	margin-left: 7%;
+}
+
+.s1 {
+	position: absolute; width:75%; margin-left: 15%; margin-top: 15%;
+}
+
+.s2 {
+	position: absolute; width:75%; margin-left: 13%; margin-top: 15%;
+}
+
+.servicesheading{
+	
+    color: white; font-family: Arial;
+	text-align: center; font-size: 200%;
+
+}
+
+.servicespara{
+	margin-top: 5%;
+	text-align: justify;
+	font-size: 110%;
+	color: white;
+}
+
+
+.btn2{
+	opacity:100%; border:2px solid white; color: white; background: none;
+                 padding-left:6%;padding-right:6%; padding-bottom: 3%; padding-top: 3%; font-weight: bold; font-size: 120%;
+                 border-radius: 5px;
+
+}
+
+
+.btn2:hover {
+	background: linear-gradient( rgba(255,255,255,0.3)50%, rgba(255,255,255, 0.3)50%);
+	color: white;
+	font-weight: bold; border-radius: 5px; 
+}
+
+.btn2:hover span:after{
+	content:'\00bb';
+	 padding-left:15%;
+	color: white;
+	font-weight: bold; border-radius: 5px; opacity:1;
+}
+
+.shade{
+	background:black; position: absolute; width:95%; height:410px; 
+	opacity:60%; z-index: 1; clip-path:polygon(19% 0%, 95% 0%, 95% 100%, 20% 100%,0% 50%);
+}
+
+
+.license{
+	position: absolute; z-index: 2; color: white;  margin-top:20% ; margin-left:30%; ;
+}
+
+.licenseicon{
+	font-size: 300%;margin-left: 40%;
+
+}
+
+.licensepara{
+	font-size:170%; text-align:center;border-bottom:2px solid white;
+
+}
+
+.homebottom{
+
+     width:100%; height:800px; background-image:url('/home/cedcoss/Downloads/home-botton-img.jpg');
+     background-position: center; background-size: cover;background-attachment: fixed;
+     background-repeat: no-repeat;
+ }
+.light{
+	width: 100%; height:800px;
+  	
+  }
+
+.blur1{
+	background:linear-gradient( rgba(0,0,0,0.5)50%, rgba(0,0,0, 0.5)50% ); 
+	position: absolute; z-index:2; width:100%; height:800px; 
+}
+.blur2{
+	background:linear-gradient( rgba(18,10,143,1)50%, rgba(18,10,143, 1)50% );
+	 z-index:1; width:100%;  margin-top:0%;
+}
+
+.contact{
+	color: white;
+    margin-top: 5%;
+	z-index:3; 
+}
+
+.contactpara{
+	 text-align: center; margin-top: 0%;
+	font-size: 130%;
+
+}
+
+.contactbtn{
+
+	 background: none; border: 2px solid white; border-radius: 5px; color: white; padding-left: 3%;
+
+	padding-right: 3%;  margin-top: 5%; margin-bottom: 3%;
+
+}
+
+.bottomcontent{
+	z-index: 3; position: absolute; color: white;  width:65%; margin-left:22% ; margin-top: 13%
+
+}
+
+.bottomheading{
+	font-size: 220%; text-align: center;
+
+}
+
+.bottompara{
+	font-size: 150%; text-align: center;
+
+}
+
+.city{
+	width:70%;
+	height:190px;
+	overflow-y: scroll;
+}
+
+.copyright{
+	background: black; text-align: center; padding-top: 1%; padding-bottom: 1%; height:auto; margin-top: 0; 
+
+}
+
+.foot{ 
+     font-size: 100%;
+   	 width:100%; text-align: center; color: white;
+   }  
+
+   .reach{
+   	margin-left: 5%;
+   }
+
+
+
+@media only screen and (max-width: 400px) {
+
+  .logo {
+    margin-left: 5%;
+    width:30%;
+    height:10%;
+  }
+
+  .home {
+
+  	background:linear-gradient(360deg, rgba(0,29,105,0.7) 50%, rgba(255, 255, 255, 0) 0%), url('/home/cedcoss/Downloads/residential.jpg');
+
+	height:300px; position: relative;  background-size: cover; 
+  	    
+  }
+
+  .container1 {
+
+    margin-top:50%; 
+	margin-left:13%;
+
+	width:80%;
+	position: absolute; 
+	font-size: 60%;	
+    
+  }
+  .homecontent{
+	margin-top: 3%;
+  }
+
+  .homecontent1{
+	text-align: center;
+	font-size: 250%;
+	color: white;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-weight: bold;
+	
+	margin:0; padding:0; line-height:100%;
+  } 
+
+ .homecontent2{
+	font-size: 180%;
+	color: white;
+	text-align: center;
+	
+  }
+
+  .bulb{
+	text-align: center;
+	font-size: 200%;
+	color: white;
+	width:0%;
+   height: 0%;
+   margin-left: 42%;
+   
+  }
+
+  .polygon{font-size: 170%; text-align: center; padding-top:5%; margin-right: 0px;padding-top: 5%; width:100%;}
+
+  .card{width:18rem;margin-top: 5%;border: 1px solid blue;}
+
+  .btn2{opacity:100%; border:2px solid white; color: white; background: none;padding-left:6%;padding-right:6%; padding-bottom: 4%; padding-top: 4%; }
+
+    .card{margin-left:0%; width:20rem;}
+
+    .services1{ margin-left:5%;   }
+
+    .s1{margin-left: 10%;}
+
+    .services{margin-left:5%; }
+
+    .s2{margin-left:10% ; }  
+
+    .copyright{background: black; color: white; font-size: 70%; text-align: center; padding-top: 3%; padding-bottom: 2%; height:auto;}
+
+   .foot{ margin-left: 20%;  font-size: 130%;width:60%; }  
+
+   .shade{width:91%;}
+
+   .homebottom{ width:100%; height:800px; }
+
+   .light{ width:100% height:800px; }	
+
+   .blur1{
+	background:linear-gradient( rgba(0,0,0,0.5)50%, rgba(0,0,0, 0.5)50% ); 
+	position: absolute; z-index:2; width:100%; height:800px;
+  }
+
+   .blur2{
+	background:linear-gradient( rgba(18,10,143,1)50%, rgba(18,10,143 1)50% );
+  }
+
+  .city{
+	width:90%;
+	height:160px;
+	overflow-y: scroll;
+ }
+
+
+  .contact{
+		color: white;
+		font-size: 120%;
+		z-index:3; 
+	}
+  .contactpara{
+	 text-align: center; margin-top: 5%;
+		font-size: 120%;
+
+	}
+
+	.contactbtn{
+
+	 background: none; border: 2px solid white; border-radius: 5px; color: white; padding-left: 3%;
+
+	padding-right: 3%; margin-bottom: 3%;
+
+   }
+
+   .reach{
+   	margin-left: 0%;
+   }
+
+   .logoimg{
+	width:70%; height:70%;
+  }
+
+
+   .license{position: absolute; margin-top: 35%; margin-left:25%; z-index: 2; color: white; }
+
+
+ .licenseicon{font-size: 200%;margin-left: 40%; }
+
+  .licensepara{font-size:100%; text-align:center;border-bottom:2px solid white; padding-right: 3%}
+
+	.bottomcontent{
+		z-index: 3; position: absolute; color: white; width:80%; margin-left:8% ; margin-top: 13%
+
+	}
+
+	.bottomheading{
+		font-size: 190%; text-align: center;
+
+	}
+
+	.bottompara{
+		font-size: 120%; text-align: center;
+
+	}
+
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+
+  .logo {
+    margin-left: 5%;
+    width:30%;
+    height:10%;
+  }
+
+  .home {
+
+  	background:linear-gradient(360deg, rgba(0,29,105,0.7) 50%, rgba(255, 255, 255, 0) 0%), url('/home/cedcoss/Downloads/residential.jpg');
+
+	height:300px; position: relative;  background-size: cover; 
+  	    
+  }
+
+  .container1 { 
+
+    margin-top:45%; 
+	margin-left:13%;
+	width:80%;
+	position: absolute; 
+	font-size: 60%;	
+    
+  }
+
+  .homecontent{
+	margin-top: -2%; 
+  }
+
+  .homecontent1{
+	text-align: center;
+	font-size: 250%;
+	color: white;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-weight: bold;
+	
+	margin:0; padding:0; line-height:100%;
+  } 
+
+ .homecontent2{
+	font-size: 180%;
+	color: white;
+	text-align: center;
+	
+  }
+
+  .bulb{
+	text-align: center;
+	font-size: 200%;
+	color: white;
+	width:0%;
+   height: 0%;
+   margin-left: 42%;
+   
+  }
+
+  .polygon{font-size: 170%; text-align: center; padding-top:5%; margin-right: 0px;padding-top: 5%; width:100%;}
+
+  .card{width:18rem;margin-top: 5%;border: 1px solid blue;}
+
+  .btn2{opacity:100%; border:2px solid white; color: white; background: none;padding-left:6%;padding-right:6%; padding-bottom: 4%; padding-top: 4%; }
+
+    .card{margin-left:0%; width:20rem;}
+
+    .services1{ margin-left:5%;   }
+
+    .s1{margin-left: 10%;}
+
+    .services{margin-left:5%; }
+
+    .s2{margin-left:10% ; }  
+
+    .copyright{background: black; color: white; font-size: 70%; text-align: center; padding-top: 3%; padding-bottom: 2%; height:auto;}
+
+   .foot{ margin-left: 20%;  font-size: 130%;width:60%; }  
+
+   .shade{width:91%;}
+
+
+   .homebottom{
+
+    width:100%; height:600px; 
+    }
+
+    .light{
+	width: 100%; height:600px;
+  	
+  }
+
+   .blur1{
+	background:linear-gradient( rgba(0,0,0,0.5)50%, rgba(0,0,0, 0.5)50% ); 
+	position: absolute; z-index:2; width:100%; height:600px;
+  }
+
+   .blur2{
+	background:linear-gradient( rgba(18,10,143,1)50%, rgba(18,10,143, 1)50% );
+	 z-index:1; 
+  }
+
+  .contact{
+		color: white;
+		font-size: 140%;
+		 margin-top: 2%; 
+		z-index:3; 
+	}
+
+  .city{
+	width:90%;
+	height:160px;
+	overflow-y: scroll;
+ }
+  .contactpara{
+		 text-align: center; margin-top: 5%;
+		 font-size: 120%;
+
+	}
+
+	.contactbtn{
+
+	 background: none; border: 2px solid white; border-radius: 5px; color: white; padding-left: 3%;
+
+	padding-right: 3%; margin-bottom: 3%;
+
+   }
+
+   .reach{
+   	
+   }
+
+   .logoimg{
+	width:70%; height:70%;
+  }
+
+
+   .license{position: absolute; margin-top: 35%; margin-left:25%; z-index: 2; color: white; }
+
+
+ .licenseicon{font-size: 200%;margin-left: 40%; }
+
+  .licensepara{font-size:150%; text-align:center;border-bottom:2px solid white;}
+
+	.bottomcontent{
+		z-index: 3; position: absolute; color: white;  width:80%; margin-left:8% ; margin-top: 13%
+
+	}
+
+	.bottomheading{
+		font-size: 190%; text-align: center;
+
+	}
+
+	.bottompara{
+		font-size: 120%; text-align: center;
+
+	}
+
+}
+
+
+@media only screen and (min-width: 425px) and (max-width: 625px){
+
+.container1 { 
+
+    margin-top:35%; 
+	margin-left:13%;
+	width:80%;
+	position: absolute; 
+	font-size: 60%;	
+    
+  }
+}
+
+
+@media only screen and (min-width: 625px) and (max-width: 700px){
+
+.container1 { 
+
+    margin-top:30%; 
+	margin-left:13%;
+	width:80%;
+	position: absolute; 
+	font-size: 60%;	
+    
+  }
+}
+
+@media only screen and (min-width: 625px) and (max-width: 700px){
+
+.container1 { 
+
+    margin-top:30%; 
+	margin-left:13%;
+	width:80%;
+	position: absolute; 
+	font-size: 60%;	
+    
+  }
+}
+
+
+
+
+
+
+
+
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
