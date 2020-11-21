@@ -13,7 +13,7 @@
 	transition: 5s;
 }
 .home{
-	background:linear-gradient(110deg, rgba(0,29,105,0.7) 50%, rgba(255, 255, 255, 0) 0%), url('/home/cedcoss/Downloads/residential.jpg');
+	background:linear-gradient(110deg, rgba(0,29,105,0.7) 50%, rgba(255, 255, 255, 0) 0%), url('residential.jpg');
 
 	height:600px; position: relative;  background-size: cover; margin-top: 13%;
 	}
@@ -129,13 +129,13 @@ ul li{
 }
 
 .services1{
-	background:linear-gradient( rgba(0,0,0,0.7)50%, rgba(0,0,0, 0.7)50% ), url('/home/cedcoss/Downloads/residential-service.jpg ');
+	background:linear-gradient( rgba(0,0,0,0.7)50%, rgba(0,0,0, 0.7)50% ), url('residential-service.jpg ');
 	position: absolute; height:200px; border:2px solid black; width:85%; height:400px;background-size: cover; 
 	margin-left: 10%;
 }
 
 .services{
-	background:linear-gradient( rgba(0,0,0,0.7)50%, rgba(0,0,0, 0.7)50% ), url('/home/cedcoss/Downloads/commercial-service.jpg ');
+	background:linear-gradient( rgba(0,0,0,0.7)50%, rgba(0,0,0, 0.7)50% ), url('commercial-service.jpg ');
 	position: absolute; height:200px; border:2px solid black; width:85%; height:400px;background-size: cover; 
 	margin-left: 7%;
 }
@@ -206,7 +206,7 @@ ul li{
 
 .homebottom{
 
-     width:100%; height:800px; background-image:url('/home/cedcoss/Downloads/home-botton-img.jpg');
+     width:100%; height:800px; background-image:url('home-botton-img.jpg');
      background-position: center; background-size: cover;background-attachment: fixed;
      background-repeat: no-repeat;
  }
@@ -291,7 +291,7 @@ ul li{
 
   .home {
 
-  	background:linear-gradient(360deg, rgba(0,29,105,0.7) 50%, rgba(255, 255, 255, 0) 0%), url('/home/cedcoss/Downloads/residential.jpg');
+  	background:linear-gradient(360deg, rgba(0,29,105,0.7) 50%, rgba(255, 255, 255, 0) 0%), url('residential.jpg');
 
 	height:300px; position: relative;  background-size: cover; 
   	    
@@ -443,7 +443,7 @@ ul li{
 
   .home {
 
-  	background:linear-gradient(360deg, rgba(0,29,105,0.7) 50%, rgba(255, 255, 255, 0) 0%), url('/home/cedcoss/Downloads/residential.jpg');
+  	background:linear-gradient(360deg, rgba(0,29,105,0.7) 50%, rgba(255, 255, 255, 0) 0%), url('residential.jpg');
 
 	height:300px; position: relative;  background-size: cover; 
   	    
