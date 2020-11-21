@@ -1,0 +1,224 @@
+.tesla{
+	background-color:#FFC645; color: #666666; border:2px solid #FFC645; 
+}
+
+.tesla1{
+	background-color:#FFC645; color: #666666; border:2px solid #FFC645; 
+}
+strong{
+	font-weight: bold
+}
+
+.c6{
+	text-align: center;
+	width:80%; font-size: 140%; margin-left:10%; margin-top: 5%;
+}
+
+.c7{
+	text-align: center;
+	width:70%;
+	font-size: 200%; margin-left:13%;
+}
+
+.c8{
+	text-align: center;
+	width:75%; font-size: 170%; margin-left:13%; margin-top: 5%;
+}
+
+.c9{
+	text-align: center;
+	width:70%;
+	font-size: 200%; margin-left:13%;
+}
+
+.details{
+}
+
+.edison1 {
+	margin-top: 14%; background-image: url('ac.jpg');
+	height:600px; background-size: cover; width:100%; 
+}
+
+
+.dccontent{
+	  color: white;  width:23%;
+	margin-left:10%; font-size: 230%; margin-top: 7%;
+}
+
+
+.dcpara{
+	 text-align:right; 
+
+}
+
+.new{
+	width:120; height:120px; float: right;
+}
+
+.newpara{
+	color:#666666; padding-left:3%; width:80%; font-size: 110%; padding-top: 1%;
+}
+
+
+.newpara1{
+	color:#666666; width:80%; font-size: 110%; padding-top: 1%;  margin-left: 18%;
+	
+}
+.new1{
+	width:120; height:120px; float: left;
+}
+
+.q{
+	text-align:center; padding-left: 10%; font-size: 110%; color: #666666; padding-top: 4%; padding-right:10%; padding-bottom: 4%;
+}
+
+.elec{
+	text-align: center; color: white; font-size: 140%; margin-top: 3%; padding-bottom: 2%;
+}
+
+.right1{
+	
+	font-size: 250%; color: white; margin-left: 45%; padding-top: 2%; 
+}
+
+.arrow{
+	color: blue; font-size: 250%; margin-left: 45%;
+}
+
+.newpara2{
+	color:#666666; width:80%; font-size: 140%; margin-top: 7%;  margin-left: 18%;margin-bottom: 7%; 
+	
+}
+.new2{
+	width:200; height:150px; float: left; margin-top: 18%;
+}
+
+
+
+
+@media only screen and (max-width: 425px) {
+
+	.edison1 {
+	margin-top: 20%; position: relative; background-image: url('new.png');
+	height:150px;
+	
+	}
+
+		.dccontent{
+		position: absolute; z-index:1;  color: white; width:40%;
+		margin-left:2%; font-size: 50%; margin-top: 2%; 
+	}
+
+	.dcpara{
+		 text-align: left;
+
+	}
+
+	.c6{
+	text-align: center;
+	width:90%; font-size: 100%; margin-left:6%; margin-top: 5%;
+ }
+
+	.c7{
+		text-align: center;
+		width:90%;
+		font-size: 150%; margin-left:6%;
+	}
+
+	.c8{
+		text-align: center;
+		width:90%; font-size: 120%; margin-left:6%; margin-top: 5%;
+	}
+
+	.c9{
+		text-align: center;
+		width:90%;
+		font-size: 150%; margin-left:6%;
+	}
+
+	.new{
+	width:250px; height:250px; margin-right: 20%;
+  }
+
+  .newpara{
+	color:#666666; padding-left:3%; width:90%; font-size: 100%; padding-top: 1%; margin-left: 5%;
+	}
+
+	.newpara1{
+		color:#666666; width:100%; font-size: 100%; padding-top: 1%; border:5px solid green; margin-left: 0%;
+	}
+	.new1{
+		width:250px; height:250px; margin-left: 15%;
+	}
+
+	.q{
+	text-align:center; font-size: 100%; color: #666666; padding-top: 4%; padding-bottom: 4%;
+ }
+
+ .elec{
+	text-align: justify; width:100% ; font-size: 100%;
+}
+.right1{
+	
+	font-size: 150%; color: white; margin-left: 45%; margin-top: 5%;
+}
+
+.arrow{
+	color: blue; font-size: 150%; margin-left: 45%;
+}
+.newpara2{
+	color:#666666; width:80%; font-size: 100%; margin-top: 3%;  margin-left: 10%;margin-bottom: 2%; text-align: justify;
+	
+}
+.new2{
+	width:250; height:180px;  margin-top: 5%; margin-left: 30%;
+}
+
+
+
+}
+
+
+
+@media only screen and (min-width: 425px) and (max-width: 700px) {
+
+	.edison1 {
+	margin-top: 17%; position: relative;border:5px solid blue; background-image: url('new.png');
+	height:250px; 
+	
+	}
+
+		.dccontent{
+		position: absolute; z-index:1;  border:2px solid red; color: white;  width: 40%;
+		margin-left:2%; font-size: 60%; margin-top: 2%; 
+	}
+
+	.dcpara{
+		text-align: left;
+
+	}
+
+
+	}
+
+
+	@media only screen and (min-width: 700px) and (max-width: 1275px) {
+
+	.edison1 {
+	margin-top: 25%; position: relative;border:5px solid blue; background-image: url('new.png');
+	height:300px;
+	
+	}
+
+		.dccontent{
+		position: absolute; z-index:1;  border:2px solid red; color: white;  width: 40%;
+		margin-left:2%; font-size: 80%; margin-top: 2%; 
+	}
+
+	.dcpara{
+		 text-align: left;
+
+	}
+
+
+	}
